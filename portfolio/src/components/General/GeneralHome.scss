@@ -1,0 +1,46 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+a:hover {
+  scale: 1.2;
+}
+
+.portfolio__photo {
+  width: 30%;
+
+  border-radius: 16px 40px 8px 40px;
+  overflow: hidden;
+}
+.mean__section {
+  width: 40%;
+}
+.mean__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.tittle {
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+.tittle-litll {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.description {
+  color: var(--color-ligh);
+  margin-bottom: 40px;
+}
+.btn-home {
+  font-size: 1.2rem;
+}

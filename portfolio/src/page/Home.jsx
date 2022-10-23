@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import GeneralHome from '../components/General/GeneralHome';
+import ProjectHome from '../components/ProjectHome/ProjectHome';
 
-const Home = () => {
+function Home() {
   return (
-    <div>Home</div>
-  )
+    <div className="container">
+      <GeneralHome />
+      <ProjectHome/>
+    </div>
+  );
 }
 
-export default Home
+export default Home;

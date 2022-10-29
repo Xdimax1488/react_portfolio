@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 6rem;
- 
+
   margin-bottom: 3rem;
 }
 .projects {
@@ -37,13 +37,13 @@
     align-items: center;
     gap: 1rem;
     margin-bottom: 1rem;
-    .btn-project{
-        padding: 0.5rem 1rem;
+    .btn-project {
+      padding: 0.5rem 1rem;
     }
   }
-  &:hover{
+  &:hover {
     border: 1px solid var(--color-ligh);
-  
-  background: transparent;
+
+    background: transparent;
   }
 }

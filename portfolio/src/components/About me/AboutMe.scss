@@ -1,0 +1,66 @@
+.about_me {
+  margin-top: 112px;
+  padding: 5rem 0;
+}
+.about_me__inner {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+.about_me__img {
+  border-radius: 35px;
+  overflow: hidden;
+  width: 35%;
+}
+.about_me__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 515px;
+}
+.experiance-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--color-bg-variant);
+  border-radius: 15px;
+  background: var(--color-bg-variant);
+  transition: var(--transition);
+  width: 150px;
+  height: 150px;
+  padding: 1rem;
+  &:hover {
+    border: 1px solid var(--color-ligh);
+
+    background: transparent;
+  }
+}
+.tittle-ab {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.description-ab {
+  font-size: 13px;
+  color: var(--color-ligh);
+}
+.about_me__text {
+  font-weight: 500;
+  color: var(--color-ligh);
+  margin-bottom: 4rem;
+}
+
+.donload-icon {
+  margin-left: 10px;
+  margin-bottom: -4px;
+}

@@ -68,7 +68,7 @@ h1{
 
 h2{
   text-align: center;
-  color: var(--color-primary);
+  color: var(--color-ligh);
 }
 .btn{
   width: max-content;

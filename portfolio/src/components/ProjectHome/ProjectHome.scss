@@ -13,10 +13,11 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 3rem;
+  flex-wrap: wrap;
 }
 .project {
   width: 30%;
-  margin: 0 15px;
+  margin: 20px 15px;
   padding: 20px;
   border: 1px solid var(--color-bg-variant);
   border-radius: 25px;

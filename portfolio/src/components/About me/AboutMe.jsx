@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { IoDocumentText, IoFolder, IoPeople, IoRibbonSharp } from 'react-icons/io5';
+import CV from '../../asset/2.pdf';
 import HeaderImg from '../../asset/intro.jpeg';
 import './AboutMe.scss';
 
@@ -30,7 +31,7 @@ function AboutMe() {
             </div>
             <div className="experience">
               <div className="icon-ab">
-                <IoFolder  size={20} style={{ color: '#4db5ff' }}/>
+                <IoFolder size={20} style={{ color: '#4db5ff' }} />
               </div>
               <div className="tittle-ab">projects</div>
               <div className="description-ab">10+ completed</div>
@@ -42,10 +43,10 @@ function AboutMe() {
             fuga earum perferendis dolores, quam quibusdam, nostrum aspernatur eveniet eum labore
             cumque. Nostrum.
           </div>
-          <div className="btn btn-primery btn-home">
+          <a download="" href={CV} className="btn btn-primery btn-home">
             Download CV
             <IoDocumentText size={25} className="donload-icon" />
-          </div>
+          </a>
         </div>
       </div>
     </div>

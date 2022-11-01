@@ -1,4 +1,79 @@
-.contact{
-    margin-top:112px;
-    padding:5rem 0
+.contact {
+  margin-top: 112px;
+  padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+ gap: 10rem;
+  & form {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+.contact__links {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+
+  gap: 1rem;
+}
+.contact__links-blokc {
+text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  border: 1px solid var(--color-bg-variant);
+  border-radius: 15px;
+  background: var(--color-bg-variant);
+  transition: var(--transition);
+  &:hover {
+    background: transparent;
+    border: 1px solid var(--color-ligh);
+  }
+}
+.title-contact {
+  margin-top: 10px;
+  color: var(--color-wite);
+  font-weight: 500;
+}
+.link {
+  font-weight: 500;
+  font-size: 13px;
+  color: var(--color-ligh);
+}
+.contact-link {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 13px;
+  &:hover {
+    scale: none;
+  }
+}
+input,
+textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 1px solid var(--color-primary);
+  resize: none;
+  color: var(--color-white);
+}
+
+@media screen and (max-width: 1024px) {
+  .contact {
+   flex-direction: column;
+   align-items:center;
+   gap: 3rem;
+   & form {
+    width:100%
+   }
+  }
+  .contact__links{
+    width:100%
+  }
 }

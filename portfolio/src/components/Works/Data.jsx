@@ -8,7 +8,7 @@ export const projectsData = [
   {
     id: 1,
     image: Work1,
-    title: 'Web design',
+    title: 'Web',
     category: 'web',
     git :'https://github.com/Xdimax1488',
     demo:'',

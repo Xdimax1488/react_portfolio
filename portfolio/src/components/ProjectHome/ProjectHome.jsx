@@ -15,7 +15,7 @@ function ProjectHome() {
                 <div className="project__deckription">Lorem ipsum dolor sit amet consectetur.</div>
                 <div className="projects__btn">
                     <a href="#" className="btn btn-project">Github</a>
-                    <a href="" className="btn btn-primery btn-project ">Live Demo</a>
+                    <a href="#" className="btn btn-primery btn-project ">Live Demo</a>
                 </div>
             </div>
             <div className="project">

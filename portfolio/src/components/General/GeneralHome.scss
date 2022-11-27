@@ -17,7 +17,7 @@ a:hover {
 .portfolio__photo {
   width: 30%;
 
-  border-radius: 63% 37% 24% 76% / 61% 43% 57% 39% ;
+  border-radius: 63% 37% 24% 76% / 61% 43% 57% 39%;
   overflow: hidden;
 }
 .mean__section {
@@ -43,4 +43,39 @@ a:hover {
 }
 .btn-home {
   font-size: 1.2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .tittle-litll {
+    font-size: 1rem;
+  }
+  .description {
+    font-size: 0.7rem;
+  }
+  .btn-home {
+    font-size: 1rem;
+    
+  }
+}
+@media screen and (max-width: 632px) {
+  
+  .home {
+    flex-direction: column-reverse;
+    gap: 2rem;
+    
+  }
+  .social {
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+  }
+  .btn-home {
+    
+    text-align:center;
+  }
+  .portfolio__photo {
+    width: 100%;}
+    .mean__section {
+      width: 100%;
+    }
 }

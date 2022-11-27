@@ -19,7 +19,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  max-width: 515px;
+  width: 45%;
+  
 }
 .experiance-block {
   display: flex;
@@ -63,4 +64,63 @@
 .donload-icon {
   margin-left: 10px;
   margin-bottom: -4px;
+}
+@media screen and (max-width: 1150px) {
+  .about_me__inner {
+    gap: 2rem;
+  }
+  .about_me__img {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .about_me__content {
+    width: 45%;
+  }
+  .about_me__img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .experience {
+    width: 140px;
+    height: 140px;
+  }
+  .experiance-block {
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 950px) {
+  .experience {
+    width: 120px;
+    height: 120px;
+    padding: 0.5rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  .about_me__inner {
+    flex-direction: column;
+  }
+  .about_me__content {
+    align-items: center;
+  }
+  .about_me__content {
+    width: 100%;
+  }
+  .about_me__img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .tittle-ab {
+    font-size: 13px;
+  }
+  .description-ab {
+    font-size: 10px;
+  }
+  .experience {
+    width: 100px;
+    height: 100px;
+    padding: 0.5rem;
+  }
 }

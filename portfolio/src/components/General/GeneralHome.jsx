@@ -9,14 +9,14 @@ const GeneralHome = () => {
     <div className="home">
       <div className="social">
         <a
-          href="https://www.instagram.com/janastyaa/"
+          href="https://www.instagram.com/xdimax1488/"
           className="instagram"
           target="_blank"
           rel="noreferrer">
           <GrInstagram size={20} style={{ color: '#4db5ff' }} />
         </a>
         <a
-          href="https://www.instagram.com/janastyaa/"
+          href="https://github.com/Xdimax1488"
           className="github"
           target="_blank"
           rel="noreferrer">

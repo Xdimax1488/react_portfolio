@@ -48,3 +48,13 @@
     background: transparent;
   }
 }
+@media screen and (max-width: 935px) {
+  .project {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 632px) {
+  .project {
+    width: 100%;
+  }
+}

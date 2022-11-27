@@ -65,3 +65,37 @@
 .description-sk {
   color: var(--color-ligh);
 }
+
+@media screen and (max-width: 850px) {
+  .skills__block-tittle {
+    font-size: 1.3rem;
+  }
+  .tittle-sk {
+    font-size: 1rem;
+  }
+  .description-sk {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  .skills__block {
+    padding: 2rem;
+  }
+  .skills__content {
+    gap: 1.5rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .skills__content {
+    flex-direction: column;
+  }
+  .skills__block {
+    
+    width: 80%;
+   
+  }
+  .skills__block-content {
+    
+    gap: 3rem;
+  }
+}

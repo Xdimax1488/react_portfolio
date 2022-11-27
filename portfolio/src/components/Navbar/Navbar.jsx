@@ -25,7 +25,7 @@ const Navbar = () => {
         <Link to="/">Portfolio</Link>
       </h1>
 
-      <ul className={navClick ? 'nav active' : 'nav'}>
+      <ul className={navClick ? 'nav active' : 'nav'} onClick={burgerClick}>
         <li className="nav__link">
           <Link to="/">Home</Link>
         </li>
